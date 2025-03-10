@@ -1,0 +1,5 @@
+@inproceedings{bergstra2010theano,
+  title={Theano: A CPU and GPU Math Compiler in Python.},
+  author={Bergstra, James and Breuleux, Olivier and Bastien, Fr{\'e}d{\'e}ric and Lamblin, Pascal and Pascanu, Razvan and Desjardins, Guillaume and Warde-Farley, David and Bengio, Yoshua},
+  year={2010}
+}

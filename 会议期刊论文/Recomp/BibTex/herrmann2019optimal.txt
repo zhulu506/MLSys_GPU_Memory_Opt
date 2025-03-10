@@ -1,0 +1,6 @@
+@article{herrmann2019optimal,
+  title={Optimal checkpointing for heterogeneous chains: how to train deep neural networks with limited memory},
+  author={Herrmann, Julien and Beaumont, Olivier and Eyraud-Dubois, Lionel and Hermann, Julien and Joly, Alexis and Shilova, Alena},
+  journal={arXiv preprint arXiv:1911.13214},
+  year={2019}
+}

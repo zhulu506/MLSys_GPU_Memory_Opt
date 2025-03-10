@@ -1,0 +1,8 @@
+@inproceedings{nie2022tsplit,
+  title={Tsplit: Fine-grained gpu memory management for efficient dnn training via tensor splitting},
+  author={Nie, Xiaonan and Miao, Xupeng and Yang, Zhi and Cui, Bin},
+  booktitle={2022 IEEE 38th International Conference on Data Engineering (ICDE)},
+  pages={2615--2628},
+  year={2022},
+  organization={IEEE}
+}

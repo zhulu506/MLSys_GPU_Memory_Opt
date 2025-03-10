@@ -1,0 +1,7 @@
+@inproceedings{rasley2020deepspeed,
+  title={Deepspeed: System optimizations enable training deep learning models with over 100 billion parameters},
+  author={Rasley, Jeff and Rajbhandari, Samyam and Ruwase, Olatunji and He, Yuxiong},
+  booktitle={Proceedings of the 26th ACM SIGKDD international conference on knowledge discovery \& data mining},
+  pages={3505--3506},
+  year={2020}
+}

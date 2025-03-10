@@ -1,0 +1,10 @@
+@article{chen2018modnn,
+  title={moDNN: Memory optimal deep neural network training on graphics processing units},
+  author={Chen, Xiaoming and Chen, Danny Ziyi and Han, Yinhe and Hu, Xiaobo Sharon},
+  journal={IEEE Transactions on Parallel and Distributed Systems},
+  volume={30},
+  number={3},
+  pages={646--661},
+  year={2018},
+  publisher={IEEE}
+}

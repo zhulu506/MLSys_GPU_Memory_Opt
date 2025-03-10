@@ -1,0 +1,7 @@
+@inproceedings{zhuang2023survey,
+  title={A survey on efficient training of transformers},
+  author={Zhuang, Bohan and Liu, Jing and Pan, Zizheng and He, Haoyu and Weng, Yuetian and Shen, Chunhua},
+  booktitle={Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence},
+  pages={6823--6831},
+  year={2023}
+}

@@ -1,0 +1,6 @@
+@article{nijkamp2023codegen2,
+  title={Codegen2: Lessons for training llms on programming and natural languages},
+  author={Nijkamp, Erik and Hayashi, Hiroaki and Xiong, Caiming and Savarese, Silvio and Zhou, Yingbo},
+  journal={arXiv preprint arXiv:2305.02309},
+  year={2023}
+}

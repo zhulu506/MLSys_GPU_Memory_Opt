@@ -1,0 +1,8 @@
+@inproceedings{guo2019accudnn,
+  title={AccUDNN: A GPU memory efficient accelerator for training ultra-deep neural networks},
+  author={Guo, Jinrong and Liu, Wantao and Wang, Wang and Yao, Chunrong and Han, Jizhong and Li, Ruixuan and Lu, Yijun and Hu, Songlin},
+  booktitle={2019 IEEE 37th International Conference on Computer Design (ICCD)},
+  pages={65--72},
+  year={2019},
+  organization={IEEE}
+}

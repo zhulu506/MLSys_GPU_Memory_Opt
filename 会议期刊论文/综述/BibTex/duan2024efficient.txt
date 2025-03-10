@@ -1,0 +1,6 @@
+@article{duan2024efficient,
+  title={Efficient training of large language models on distributed infrastructures: a survey},
+  author={Duan, Jiangfei and Zhang, Shuo and Wang, Zerui and Jiang, Lijuan and Qu, Wenwen and Hu, Qinghao and Wang, Guoteng and Weng, Qizhen and Yan, Hang and Zhang, Xingcheng and others},
+  journal={arXiv preprint arXiv:2407.20018},
+  year={2024}
+}

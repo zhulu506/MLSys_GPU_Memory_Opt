@@ -1,0 +1,8 @@
+@inproceedings{sun2022stronghold,
+  title={Stronghold: fast and affordable billion-scale deep learning model training},
+  author={Sun, Xiaoyang and Wang, Wei and Qiu, Shenghao and Yang, Renyu and Huang, Songfang and Xu, Jie and Wang, Zheng},
+  booktitle={SC22: International Conference for High Performance Computing, Networking, Storage and Analysis},
+  pages={1--17},
+  year={2022},
+  organization={IEEE}
+}

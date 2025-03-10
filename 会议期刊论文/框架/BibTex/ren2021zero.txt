@@ -1,0 +1,11 @@
+@inproceedings {ren2021zero,
+author = {Jie Ren and Samyam Rajbhandari and Reza Yazdani Aminabadi and Olatunji Ruwase and Shuangyan Yang and Minjia Zhang and Dong Li and Yuxiong He},
+title = {{ZeRO-Offload}: Democratizing {Billion-Scale} Model Training},
+booktitle = {2021 USENIX Annual Technical Conference (USENIX ATC 21)},
+year = {2021},
+isbn = {978-1-939133-23-6},
+pages = {551--564},
+url = {https://www.usenix.org/conference/atc21/presentation/ren-jie},
+publisher = {USENIX Association},
+month = jul
+}

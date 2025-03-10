@@ -1,0 +1,8 @@
+@incollection{huawei2022huawei,
+  title={Huawei mindspore ai development framework},
+  author={Huawei Technologies Co., Ltd.},
+  booktitle={Artificial Intelligence Technology},
+  pages={137--162},
+  year={2022},
+  publisher={Springer}
+}

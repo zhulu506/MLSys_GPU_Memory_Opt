@@ -1,0 +1,7 @@
+@article{kumar2019efficient,
+  title={Efficient rematerialization for deep networks},
+  author={Kumar, Ravi and Purohit, Manish and Svitkina, Zoya and Vee, Erik and Wang, Joshua},
+  journal={Advances in Neural Information Processing Systems},
+  volume={32},
+  year={2019}
+}

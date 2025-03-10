@@ -1,0 +1,8 @@
+@inproceedings{meng2017training,
+  title={Training deeper models by GPU memory optimization on TensorFlow},
+  author={Meng, Chen and Sun, Minmin and Yang, Jun and Qiu, Minghui and Gu, Yang},
+  booktitle={Proc. of ML Systems Workshop in NIPS},
+  volume={7},
+  pages={26},
+  year={2017}
+}

@@ -1,0 +1,8 @@
+@inproceedings{bartan2023moccasin,
+  title={Moccasin: Efficient tensor rematerialization for neural networks},
+  author={Bartan, Burak and Li, Haoming and Teague, Harris and Lott, Christopher and Dilkina, Bistra},
+  booktitle={International Conference on Machine Learning},
+  pages={1826--1837},
+  year={2023},
+  organization={PMLR}
+}

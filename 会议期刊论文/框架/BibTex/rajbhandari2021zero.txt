@@ -1,0 +1,7 @@
+@inproceedings{rajbhandari2021zero,
+  title={Zero-infinity: Breaking the gpu memory wall for extreme scale deep learning},
+  author={Rajbhandari, Samyam and Ruwase, Olatunji and Rasley, Jeff and Smith, Shaden and He, Yuxiong},
+  booktitle={Proceedings of the international conference for high performance computing, networking, storage and analysis},
+  pages={1--14},
+  year={2021}
+}

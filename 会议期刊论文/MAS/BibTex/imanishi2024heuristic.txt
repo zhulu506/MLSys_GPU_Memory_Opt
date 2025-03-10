@@ -1,0 +1,7 @@
+@inproceedings{imanishi2024heuristic,
+  title={A Heuristic for Periodic Memory Allocation with Little Fragmentation to Train Neural Networks},
+  author={Imanishi, Akifumi and Xu, Zijian},
+  booktitle={Proceedings of the 2024 ACM SIGPLAN International Symposium on Memory Management},
+  pages={82--94},
+  year={2024}
+}

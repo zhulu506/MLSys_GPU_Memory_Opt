@@ -1,0 +1,6 @@
+@article{liao2024lohan,
+  title={LoHan: Low-Cost High-Performance Framework to Fine-Tune 100B Model on a Consumer GPU},
+  author={Liao, Changyue and Sun, Mo and Yang, Zihan and Xie, Jun and Chen, Kaiqi and Yuan, Binhang and Wu, Fei and Wang, Zeke},
+  journal={arXiv preprint arXiv:2403.06504},
+  year={2024}
+}

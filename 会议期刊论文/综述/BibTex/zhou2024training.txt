@@ -1,0 +1,7 @@
+@article{zhou2024training,
+  title={Training and serving system of foundation models: A comprehensive survey},
+  author={Zhou, Jiahang and Chen, Yanyu and Hong, Zicong and Chen, Wuhui and Yu, Yue and Zhang, Tao and Wang, Hui and Zhang, Chuanfu and Zheng, Zibin},
+  journal={IEEE Open Journal of the Computer Society},
+  year={2024},
+  publisher={IEEE}
+}

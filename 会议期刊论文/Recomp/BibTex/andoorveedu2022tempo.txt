@@ -1,0 +1,8 @@
+@article{andoorveedu2022tempo,
+  title={Tempo: Accelerating transformer-based model training through memory footprint reduction},
+  author={Andoorveedu, Muralidhar and Zhu, Zhanda and Zheng, Bojian and Pekhimenko, Gennady},
+  journal={Advances in Neural Information Processing Systems},
+  volume={35},
+  pages={12267--12282},
+  year={2022}
+}

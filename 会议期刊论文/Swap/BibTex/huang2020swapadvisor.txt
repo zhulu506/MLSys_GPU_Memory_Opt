@@ -1,0 +1,7 @@
+@inproceedings{huang2020swapadvisor,
+  title={Swapadvisor: Pushing deep learning beyond the gpu memory limit via smart swapping},
+  author={Huang, Chien-Chin and Jin, Gu and Li, Jinyang},
+  booktitle={Proceedings of the Twenty-Fifth International Conference on Architectural Support for Programming Languages and Operating Systems},
+  pages={1341--1355},
+  year={2020}
+}

@@ -1,0 +1,10 @@
+@article{he2022home,
+  title={Home: A holistic gpu memory management framework for deep learning},
+  author={He, Shuibing and Chen, Ping and Chen, Shuaiben and Li, Zheng and Yang, Siling and Chen, Weijian and Shou, Lidan},
+  journal={IEEE Transactions on Computers},
+  volume={72},
+  number={3},
+  pages={826--838},
+  year={2022},
+  publisher={IEEE}
+}

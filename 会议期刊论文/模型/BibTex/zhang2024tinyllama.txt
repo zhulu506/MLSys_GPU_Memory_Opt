@@ -1,0 +1,6 @@
+@article{zhang2024tinyllama,
+  title={Tinyllama: An open-source small language model},
+  author={Zhang, Peiyuan and Zeng, Guangtao and Wang, Tianduo and Lu, Wei},
+  journal={arXiv preprint arXiv:2401.02385},
+  year={2024}
+}

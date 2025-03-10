@@ -1,0 +1,7 @@
+@inproceedings{yang2020efficient,
+  title={Efficient GPU memory management for nonlinear DNNs},
+  author={Yang, Donglin and Cheng, Dazhao},
+  booktitle={Proceedings of the 29th International Symposium on High-Performance Parallel and Distributed Computing},
+  pages={185--196},
+  year={2020}
+}

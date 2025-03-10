@@ -1,0 +1,7 @@
+@article{chen2024atp,
+  title={ATP: Achieving Throughput Peak for DNN Training via Smart GPU Memory Management},
+  author={Chen, Weiduo and Dong, Xiaoshe and Zhang, Fan and Li, Bowen and Wang, Yufei and Wang, Qiang},
+  journal={ACM Transactions on Architecture and Code Optimization},
+  year={2024},
+  publisher={ACM New York, NY}
+}

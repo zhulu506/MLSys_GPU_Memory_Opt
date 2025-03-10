@@ -1,0 +1,7 @@
+@inproceedings{wang2022melon,
+  title={Melon: Breaking the memory wall for resource-efficient on-device machine learning},
+  author={Wang, Qipeng and Xu, Mengwei and Jin, Chao and Dong, Xinran and Yuan, Jinliang and Jin, Xin and Huang, Gang and Liu, Yunxin and Liu, Xuanzhe},
+  booktitle={Proceedings of the 20th Annual International Conference on Mobile Systems, Applications and Services},
+  pages={450--463},
+  year={2022}
+}

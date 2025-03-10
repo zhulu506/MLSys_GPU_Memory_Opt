@@ -1,0 +1,6 @@
+@article{zhang2019efficient,
+  title={Efficient memory management for gpu-based deep learning systems},
+  author={Zhang, Junzhe and Yeung, Sai Ho and Shu, Yao and He, Bingsheng and Wang, Wei},
+  journal={arXiv preprint arXiv:1903.06631},
+  year={2019}
+}

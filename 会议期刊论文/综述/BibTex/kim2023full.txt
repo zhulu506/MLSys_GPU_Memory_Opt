@@ -1,0 +1,6 @@
+@article{kim2023full,
+  title={Full stack optimization of transformer inference: a survey},
+  author={Kim, Sehoon and Hooper, Coleman and Wattanawong, Thanakul and Kang, Minwoo and Yan, Ruohan and Genc, Hasan and Dinh, Grace and Huang, Qijing and Keutzer, Kurt and Mahoney, Michael W and others},
+  journal={arXiv preprint arXiv:2302.14017},
+  year={2023}
+}

@@ -1,0 +1,7 @@
+@inproceedings{feng2021optimal,
+  title={Optimal gradient checkpoint search for arbitrary computation graphs},
+  author={Feng, Jianwei and Huang, Dong},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={11433--11442},
+  year={2021}
+}

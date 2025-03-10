@@ -1,0 +1,7 @@
+@article{LLMSurvey,
+    title={A Survey of Large Language Models},
+    author={Zhao, Wayne Xin and Zhou, Kun and Li, Junyi and Tang, Tianyi and Wang, Xiaolei and Hou, Yupeng and Min, Yingqian and Zhang, Beichen and Zhang, Junjie and Dong, Zican and Du, Yifan and Yang, Chen and Chen, Yushuo and Chen, Zhipeng and Jiang, Jinhao and Ren, Ruiyang and Li, Yifan and Tang, Xinyu and Liu, Zikang and Liu, Peiyu and Nie, Jian-Yun and Wen, Ji-Rong},
+    year={2023},
+    journal={arXiv preprint arXiv:2303.18223},
+    url={http://arxiv.org/abs/2303.18223}
+}

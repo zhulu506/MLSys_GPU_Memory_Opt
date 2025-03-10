@@ -1,0 +1,6 @@
+@article{chen2024practical,
+  title={Practical offloading for fine-tuning LLM on commodity GPU via learned subspace projectors},
+  author={Chen, Siyuan and Guan, Zelong and Liu, Yudong and Gibbons, Phillip B},
+  journal={arXiv preprint arXiv:2406.10181},
+  year={2024}
+}

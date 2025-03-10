@@ -1,0 +1,6 @@
+@article{nijkamp2022codegen,
+  title={Codegen: An open large language model for code with multi-turn program synthesis},
+  author={Nijkamp, Erik and Pang, Bo and Hayashi, Hiroaki and Tu, Lifu and Wang, Huan and Zhou, Yingbo and Savarese, Silvio and Xiong, Caiming},
+  journal={arXiv preprint arXiv:2203.13474},
+  year={2022}
+}

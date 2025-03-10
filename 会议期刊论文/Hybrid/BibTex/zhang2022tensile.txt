@@ -1,0 +1,10 @@
+@article{zhang2022tensile,
+  title={TENSILE: A tensor granularity dynamic GPU memory scheduling method toward multiple dynamic workloads system},
+  author={Zhang, Kaixin and Wang, Hongzhi and Hu, Han and Zou, Songling and Qiu, Jiye and Li, Tongxin and Wang, Zhishun},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  volume={35},
+  number={8},
+  pages={8630--8643},
+  year={2022},
+  publisher={IEEE}
+}

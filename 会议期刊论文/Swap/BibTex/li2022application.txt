@@ -1,0 +1,10 @@
+@article{li2022application,
+  title={An application-oblivious memory scheduling system for DNN accelerators},
+  author={Li, Jiansong and Wang, Xueying and Chen, Xiaobing and Li, Guangli and Dong, Xiao and Zhao, Peng and Yu, Xianzhi and Yang, Yongxin and Cao, Wei and Liu, Lei and others},
+  journal={ACM Transactions on Architecture and Code Optimization (TACO)},
+  volume={19},
+  number={4},
+  pages={1--26},
+  year={2022},
+  publisher={ACM New York, NY}
+}

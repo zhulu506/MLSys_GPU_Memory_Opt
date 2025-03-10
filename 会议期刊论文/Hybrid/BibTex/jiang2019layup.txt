@@ -1,0 +1,10 @@
+@article{jiang2019layup,
+  title={Layup: Layer-adaptive and multi-type intermediate-oriented memory optimization for GPU-based CNNs},
+  author={Jiang, Wenbin and Ma, Yang and Liu, Bo and Liu, Haikun and Zhou, Bing Bing and Zhu, Jian and Wu, Song and Jin, Hai},
+  journal={ACM Transactions on Architecture and Code Optimization (TACO)},
+  volume={16},
+  number={4},
+  pages={1--23},
+  year={2019},
+  publisher={ACM New York, NY, USA}
+}

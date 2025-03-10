@@ -1,0 +1,8 @@
+@article{he2023transcending,
+  title={Transcending runtime-memory tradeoffs in checkpointing by being fusion aware},
+  author={He, Horace and Yu, Shangdi},
+  journal={Proceedings of Machine Learning and Systems},
+  volume={5},
+  pages={414--427},
+  year={2023}
+}

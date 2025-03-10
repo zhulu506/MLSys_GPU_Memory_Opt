@@ -1,0 +1,6 @@
+@inproceedings{liu2024mobilellm,
+  title={Mobilellm: Optimizing sub-billion parameter language models for on-device use cases},
+  author={Liu, Zechun and Zhao, Changsheng and Iandola, Forrest and Lai, Chen and Tian, Yuandong and Fedorov, Igor and Xiong, Yunyang and Chang, Ernie and Shi, Yangyang and Krishnamoorthi, Raghuraman and others},
+  booktitle={Forty-first International Conference on Machine Learning},
+  year={2024}
+}

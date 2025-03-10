@@ -1,0 +1,9 @@
+@article{khan2020survey,
+  title={A survey of the recent architectures of deep convolutional neural networks},
+  author={Khan, Asifullah and Sohail, Anabia and Zahoora, Umme and Qureshi, Aqsa Saeed},
+  journal={Artificial intelligence review},
+  volume={53},
+  pages={5455--5516},
+  year={2020},
+  publisher={Springer}
+}

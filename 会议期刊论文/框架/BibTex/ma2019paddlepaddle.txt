@@ -1,0 +1,9 @@
+@article{ma2019paddlepaddle,
+  title={PaddlePaddle: An open-source deep learning platform from industrial practice},
+  author={Ma, Yanjun and Yu, Dianhai and Wu, Tian and Wang, Haifeng},
+  journal={Frontiers of Data and Domputing},
+  volume={1},
+  number={1},
+  pages={105--115},
+  year={2019}
+}

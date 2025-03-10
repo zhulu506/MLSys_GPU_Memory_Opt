@@ -1,0 +1,7 @@
+@inproceedings{peng2020capuchin,
+  title={Capuchin: Tensor-based gpu memory management for deep learning},
+  author={Peng, Xuan and Shi, Xuanhua and Dai, Hulin and Jin, Hai and Ma, Weiliang and Xiong, Qian and Yang, Fan and Qian, Xuehai},
+  booktitle={Proceedings of the Twenty-Fifth International Conference on Architectural Support for Programming Languages and Operating Systems},
+  pages={891--905},
+  year={2020}
+}

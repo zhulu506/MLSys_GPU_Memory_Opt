@@ -1,0 +1,6 @@
+@article{lin2021survey,
+  title={A Survey of Transformers},
+  author={Lin, Tianyang and Wang, Yuxin and Liu, Xiangyang and Qiu, Xipeng},
+  journal={arXiv preprint arXiv:2106.04554},
+  year={2021}
+}

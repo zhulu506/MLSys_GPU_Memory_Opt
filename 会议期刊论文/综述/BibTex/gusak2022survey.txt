@@ -1,0 +1,22 @@
+@inproceedings{gusak2022survey,
+  title={Survey on Efficient Training of Large Neural Networks.},
+  author={Gusak, Julia and Cherniuk, Daria and Shilova, Alena and Katrutsa, Alexandr and Bershatsky, Daniel and Zhao, Xunyi and Eyraud-Dubois, Lionel and Shliazhko, Oleh and Dimitrov, Denis and Oseledets, Ivan V and others},
+  booktitle={IJCAI},
+  pages={5494--5501},
+  year={2022}
+}
+
+@inproceedings{ijcai2022p769,
+  title     = {Survey on Efficient Training of Large Neural Networks},
+  author    = {Gusak, Julia and Cherniuk, Daria and Shilova, Alena and Katrutsa, Alexandr and Bershatsky, Daniel and Zhao, Xunyi and Eyraud-Dubois, Lionel and Shliazhko, Oleh and Dimitrov, Denis and Oseledets, Ivan and Beaumont, Olivier},
+  booktitle = {Proceedings of the Thirty-First International Joint Conference on
+               Artificial Intelligence, {IJCAI-22}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Lud De Raedt},
+  pages     = {5494--5501},
+  year      = {2022},
+  month     = {7},
+  note      = {Survey Track},
+  doi       = {10.24963/ijcai.2022/769},
+  url       = {https://doi.org/10.24963/ijcai.2022/769},
+}

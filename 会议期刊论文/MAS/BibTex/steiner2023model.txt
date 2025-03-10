@@ -1,0 +1,8 @@
+@inproceedings{steiner2023model,
+  title={Model: memory optimizations for deep learning},
+  author={Steiner, Benoit and Elhoushi, Mostafa and Kahn, Jacob and Hegarty, James},
+  booktitle={International Conference on Machine Learning},
+  pages={32618--32632},
+  year={2023},
+  organization={PMLR}
+}

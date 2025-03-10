@@ -1,0 +1,10 @@
+@article{zong2023str,
+  title={STR: Hybrid tensor re-generation to break memory wall for DNN training},
+  author={Zong, Zan and Lin, Li and Lin, Leilei and Wen, Lijie and Sun, Yu},
+  journal={IEEE Transactions on Parallel and Distributed Systems},
+  volume={34},
+  number={8},
+  pages={2403--2418},
+  year={2023},
+  publisher={IEEE}
+}

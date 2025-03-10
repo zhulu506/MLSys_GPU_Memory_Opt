@@ -1,0 +1,8 @@
+@inproceedings{zhao2023rockmate,
+  title={Rockmate: an efficient, fast, automatic and generic tool for re-materialization in pytorch},
+  author={Zhao, Xunyi and Le Hellard, Th{\'e}otime and Eyraud-Dubois, Lionel and Gusak, Julia and Beaumont, Olivier},
+  booktitle={International Conference on Machine Learning},
+  pages={42018--42045},
+  year={2023},
+  organization={PMLR}
+}

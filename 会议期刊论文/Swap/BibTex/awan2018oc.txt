@@ -1,0 +1,8 @@
+@inproceedings{awan2018oc,
+  title={Oc-dnn: Exploiting advanced unified memory capabilities in cuda 9 and volta gpus for out-of-core dnn training},
+  author={Awan, Ammar Ahmad and Chu, Ching-Hsiang and Subramoni, Hari and Lu, Xiaoyi and Panda, Dhabaleswar K},
+  booktitle={2018 IEEE 25th International Conference on High Performance Computing (HiPC)},
+  pages={143--152},
+  year={2018},
+  organization={IEEE}
+}

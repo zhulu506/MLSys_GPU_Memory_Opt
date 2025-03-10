@@ -1,0 +1,6 @@
+@article{wan2023efficient,
+  title={Efficient large language models: A survey},
+  author={Wan, Zhongwei and Wang, Xin and Liu, Che and Alam, Samiul and Zheng, Yu and Liu, Jiachen and Qu, Zhongnan and Yan, Shen and Zhu, Yi and Zhang, Quanlu and others},
+  journal={arXiv preprint arXiv:2312.03863},
+  year={2023}
+}

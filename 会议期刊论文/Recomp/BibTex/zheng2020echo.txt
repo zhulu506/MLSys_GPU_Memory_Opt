@@ -1,0 +1,8 @@
+@inproceedings{zheng2020echo,
+  title={Echo: Compiler-based GPU memory footprint reduction for LSTM RNN training},
+  author={Zheng, Bojian and Vijaykumar, Nandita and Pekhimenko, Gennady},
+  booktitle={2020 ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA)},
+  pages={1089--1102},
+  year={2020},
+  organization={IEEE}
+}

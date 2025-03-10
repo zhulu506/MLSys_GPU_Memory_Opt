@@ -1,0 +1,7 @@
+@inproceedings{le2019automatic,
+  title={Automatic gpu memory management for large neural models in tensorflow},
+  author={Le, Tung D and Imai, Haruki and Negishi, Yasushi and Kawachiya, Kiyokuni},
+  booktitle={Proceedings of the 2019 ACM SIGPLAN International Symposium on Memory Management},
+  pages={1--13},
+  year={2019}
+}

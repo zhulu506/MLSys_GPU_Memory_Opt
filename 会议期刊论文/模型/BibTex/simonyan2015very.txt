@@ -1,0 +1,7 @@
+@inproceedings{simonyan2015very,
+  title={Very deep convolutional networks for large-scale image recognition},
+  author={Simonyan, K and Zisserman, A},
+  booktitle={3rd International Conference on Learning Representations (ICLR 2015)},
+  year={2015},
+  organization={Computational and Biological Learning Society}
+}

@@ -1,0 +1,8 @@
+@inproceedings{rhu2016vdnn,
+  title={vDNN Virtualized deep neural networks for scalable, memory-efficient neural network design},
+  author={Rhu, Minsoo and Gimelshein, Natalia and Clemons, Jason and Zulfiqar, Arslan and Keckler, Stephen W},
+  booktitle={2016 49th Annual IEEEACM International Symposium on Microarchitecture (MICRO)},
+  pages={1--13},
+  year={2016},
+  organization={IEEE}
+}

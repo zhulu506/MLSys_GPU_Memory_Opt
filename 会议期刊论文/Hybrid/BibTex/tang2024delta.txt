@@ -1,0 +1,10 @@
+@article{tang2024delta,
+  title={DELTA: Memory-Efficient Training via Dynamic Fine-Grained Recomputation and Swapping},
+  author={Tang, Yu and Li, Qiao and Yin, Lujia and Li, Dongsheng and Zhang, Yiming and Wang, Chenyu and Zhang, Xingcheng and Qiao, Linbo and Zhang, Zhaoning and Lu, Kai},
+  journal={ACM Transactions on Architecture and Code Optimization},
+  volume={21},
+  number={4},
+  pages={1--25},
+  year={2024},
+  publisher={ACM New York, NY}
+}

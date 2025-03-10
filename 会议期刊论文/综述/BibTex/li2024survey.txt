@@ -1,0 +1,6 @@
+@article{li2024survey,
+  title={A survey on large language model acceleration based on kv cache management},
+  author={Li, Haoyang and Li, Yiming and Tian, Anxin and Tang, Tianhao and Xu, Zhanchao and Chen, Xuejia and Hu, Nicole and Dong, Wei and Li, Qing and Chen, Lei},
+  journal={arXiv preprint arXiv:2412.19442},
+  year={2024}
+}

@@ -1,0 +1,8 @@
+@article{beaumont2021efficient,
+  title={Efficient combination of rematerialization and offloading for training dnns},
+  author={Beaumont, Olivier and Eyraud-Dubois, Lionel and Shilova, Alena},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={23844--23857},
+  year={2021}
+}

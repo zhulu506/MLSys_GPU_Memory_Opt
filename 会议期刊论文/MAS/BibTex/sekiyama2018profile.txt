@@ -1,0 +1,6 @@
+@article{sekiyama2018profile,
+  title={Profile-guided memory optimization for deep neural networks},
+  author={Sekiyama, Taro and Imamichi, Takashi and Imai, Haruki and Raymond, Rudy},
+  journal={arXiv preprint arXiv:1804.10001},
+  year={2018}
+}

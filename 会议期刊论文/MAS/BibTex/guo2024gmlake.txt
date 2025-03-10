@@ -1,0 +1,7 @@
+@inproceedings{guo2024gmlake,
+  title={Gmlake: Efficient and transparent gpu memory defragmentation for large-scale dnn training with virtual memory stitching},
+  author={Guo, Cong and Zhang, Rui and Xu, Jiale and Leng, Jingwen and Liu, Zihan and Huang, Ziyu and Guo, Minyi and Wu, Hao and Zhao, Shouren and Zhao, Junping and others},
+  booktitle={Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2},
+  pages={450--466},
+  year={2024}
+}

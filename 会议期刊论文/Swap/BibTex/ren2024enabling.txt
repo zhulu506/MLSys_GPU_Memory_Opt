@@ -1,0 +1,8 @@
+@inproceedings{ren2024enabling,
+  title={Enabling Large Dynamic Neural Network Training with Learning-based Memory Management},
+  author={Ren, Jie and Xu, Dong and Yang, Shuangyan and Zhao, Jiacheng and Li, Zhicheng and Navasca, Christian and Wang, Chenxi and Xu, Harry and Li, Dong},
+  booktitle={2024 IEEE International Symposium on High-Performance Computer Architecture (HPCA)},
+  pages={788--802},
+  year={2024},
+  organization={IEEE}
+}

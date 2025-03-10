@@ -1,0 +1,8 @@
+@inproceedings{
+shah2021memory,
+title={Memory Optimization for Deep Networks},
+author={Aashaka Shah and Chao-Yuan Wu and Jayashree Mohan and Vijay Chidambaram and Philipp Kraehenbuehl},
+booktitle={International Conference on Learning Representations},
+year={2021},
+url={https://openreview.net/forum?id=bnY0jm4l59}
+}

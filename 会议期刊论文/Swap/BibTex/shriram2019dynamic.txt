@@ -1,0 +1,8 @@
+@inproceedings{shriram2019dynamic,
+  title={Dynamic memory management for GPU-based training of deep neural networks},
+  author={Shriram, SB and Garg, Anshuj and Kulkarni, Purushottam},
+  booktitle={2019 IEEE International Parallel and Distributed Processing Symposium (IPDPS)},
+  pages={200--209},
+  year={2019},
+  organization={IEEE}
+}

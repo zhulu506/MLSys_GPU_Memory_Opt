@@ -1,0 +1,8 @@
+@inproceedings{ren2021sentinel,
+  title={Sentinel: Efficient tensor migration and allocation on heterogeneous memory systems for deep learning},
+  author={Ren, Jie and Luo, Jiaolin and Wu, Kai and Zhang, Minjia and Jeon, Hyeran and Li, Dong},
+  booktitle={2021 IEEE International Symposium on High-Performance Computer Architecture (HPCA)},
+  pages={598--611},
+  year={2021},
+  organization={IEEE}
+}

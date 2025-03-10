@@ -1,0 +1,10 @@
+@article{guo2025survey,
+  title={A Survey: Collaborative Hardware and Software Design in the Era of Large Language Models},
+  author={Guo, Cong and Cheng, Feng and Du, Zhixu and Kiessling, James and Ku, Jonathan and Li, Shiyu and Li, Ziru and Ma, Mingyuan and Molom-Ochir, Tergel and Morris, Benjamin and others},
+  journal={IEEE Circuits and Systems Magazine},
+  volume={25},
+  number={1},
+  pages={35--57},
+  year={2025},
+  publisher={IEEE}
+}

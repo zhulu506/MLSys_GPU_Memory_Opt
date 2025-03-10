@@ -1,0 +1,7 @@
+@inproceedings{li2023colossal,
+  title={Colossal-ai: A unified deep learning system for large-scale parallel training},
+  author={Li, Shenggui and Liu, Hongxin and Bian, Zhengda and Fang, Jiarui and Huang, Haichen and Liu, Yuliang and Wang, Boxiang and You, Yang},
+  booktitle={Proceedings of the 52nd International Conference on Parallel Processing},
+  pages={766--775},
+  year={2023}
+}

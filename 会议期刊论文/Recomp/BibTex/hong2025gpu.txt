@@ -1,0 +1,8 @@
+@article{hong2025gpu,
+  title={GPU Memory Usage Optimization for Backward Propagation in Deep Network Training},
+  author={Hong, Ding-Yong and Tsai, Tzu-Hsien and Wang, Ning and Liu, Pangfeng and Wu, Jan-Jan},
+  journal={Journal of Parallel and Distributed Computing},
+  pages={105053},
+  year={2025},
+  publisher={Elsevier}
+}

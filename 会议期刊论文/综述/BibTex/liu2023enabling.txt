@@ -1,0 +1,10 @@
+@article{liu2023enabling,
+  title={Enabling resource-efficient aiot system with cross-level optimization: A survey},
+  author={Liu, Sicong and Guo, Bin and Fang, Cheng and Wang, Ziqi and Luo, Shiyan and Zhou, Zimu and Yu, Zhiwen},
+  journal={IEEE Communications Surveys \& Tutorials},
+  volume={26},
+  number={1},
+  pages={389--427},
+  year={2023},
+  publisher={IEEE}
+}

@@ -1,0 +1,8 @@
+@article{purandare2023mu,
+  title={$\mu$-TWO: 3$\times$ Faster Multi-Model Training with Orchestration and Memory Optimization},
+  author={Purandare, Sanket and Wasay, Abdul and Idreos, Stratos},
+  journal={Proceedings of Machine Learning and Systems},
+  volume={5},
+  pages={541--562},
+  year={2023}
+}

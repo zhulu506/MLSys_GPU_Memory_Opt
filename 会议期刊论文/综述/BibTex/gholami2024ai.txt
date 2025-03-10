@@ -1,0 +1,11 @@
+@article{Amir Gholami and Zhewei Yao and Sehoon Kim and Coleman Hooper and Michael W. Mahoney and Kurt Keutzer2024AI and Memory Wall,
+title={AI and Memory Wall},
+author={Amir Gholami and Zhewei Yao and Sehoon Kim and Coleman Hooper and Michael W. Mahoney and Kurt Keutzer},
+journal={IEEE Micro},
+issue={No.3},
+pages={33-39},
+year={2024},
+}
+
+
+

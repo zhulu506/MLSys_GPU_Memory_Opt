@@ -1,0 +1,7 @@
+@inproceedings{wang2018superneurons,
+  title={Superneurons: Dynamic GPU memory management for training deep neural networks},
+  author={Wang, Linnan and Ye, Jinmian and Zhao, Yiyang and Wu, Wei and Li, Ang and Song, Shuaiwen Leon and Xu, Zenglin and Kraska, Tim},
+  booktitle={Proceedings of the 23rd ACM SIGPLAN symposium on principles and practice of parallel programming},
+  pages={41--53},
+  year={2018}
+}

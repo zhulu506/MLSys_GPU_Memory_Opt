@@ -1,0 +1,8 @@
+@article{jain2020checkmate,
+  title={Checkmate: Breaking the memory wall with optimal tensor rematerialization},
+  author={Jain, Paras and Jain, Ajay and Nrusimha, Aniruddha and Gholami, Amir and Abbeel, Pieter and Gonzalez, Joseph and Keutzer, Kurt and Stoica, Ion},
+  journal={Proceedings of Machine Learning and Systems},
+  volume={2},
+  pages={497--511},
+  year={2020}
+}

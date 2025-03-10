@@ -1,0 +1,10 @@
+@article{chen2022accelerating,
+  title={Accelerating tensor swapping in gpus with self-tuning compression},
+  author={Chen, Ping and He, Shuibing and Zhang, Xuechen and Chen, Shuaiben and Hong, Peiyi and Yin, Yanlong and Sun, Xian-He},
+  journal={IEEE Transactions on Parallel and Distributed Systems},
+  volume={33},
+  number={12},
+  pages={4484--4498},
+  year={2022},
+  publisher={IEEE}
+}

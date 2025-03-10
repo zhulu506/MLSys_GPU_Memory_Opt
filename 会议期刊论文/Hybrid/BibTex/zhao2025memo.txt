@@ -1,0 +1,10 @@
+@article{zhao2025memo,
+  title={MEMO: Fine-grained Tensor Management For Ultra-long Context LLM Training},
+  author={Zhao, Pinxue and Zhang, Hailin and Fu, Fangcheng and Nie, Xiaonan and Liu, Qibin and Yang, Fang and Peng, Yuanbo and Jiao, Dian and Li, Shuaipeng and Xue, Jinbao and others},
+  journal={Proceedings of the ACM on Management of Data},
+  volume={3},
+  number={1},
+  pages={1--28},
+  year={2025},
+  publisher={ACM New York, NY, USA}
+}

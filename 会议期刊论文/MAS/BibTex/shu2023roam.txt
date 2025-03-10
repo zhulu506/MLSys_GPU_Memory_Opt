@@ -1,0 +1,6 @@
+@article{shu2023roam,
+  title={ROAM: memory-efficient large DNN training via optimized operator ordering and memory layout},
+  author={Shu, Huiyao and Wang, Ang and Shi, Ziji and Zhao, Hanyu and Li, Yong and Lu, Lu},
+  journal={arXiv preprint arXiv:2310.19295},
+  year={2023}
+}

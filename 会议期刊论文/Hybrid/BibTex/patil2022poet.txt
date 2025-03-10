@@ -1,0 +1,8 @@
+@inproceedings{patil2022poet,
+  title={POET: Training neural networks on tiny devices with integrated rematerialization and paging},
+  author={Patil, Shishir G and Jain, Paras and Dutta, Prabal and Stoica, Ion and Gonzalez, Joseph},
+  booktitle={International Conference on Machine Learning},
+  pages={17573--17583},
+  year={2022},
+  organization={PMLR}
+}

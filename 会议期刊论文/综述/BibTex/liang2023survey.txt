@@ -1,0 +1,10 @@
+@article{liang2023survey,
+  title={A survey on auto-parallelism of large-scale deep learning training},
+  author={Liang, Peng and Tang, Yu and Zhang, Xiaoda and Bai, Youhui and Su, Teng and Lai, Zhiquan and Qiao, Linbo and Li, Dongsheng},
+  journal={IEEE Transactions on Parallel and Distributed Systems},
+  volume={34},
+  number={8},
+  pages={2377--2390},
+  year={2023},
+  publisher={IEEE}
+}

@@ -1,0 +1,7 @@
+@inproceedings{zhang2023g10,
+  title={G10: Enabling an efficient unified gpu memory and storage architecture with smart tensor migrations},
+  author={Zhang, Haoyang and Zhou, Yirui and Xue, Yuqi and Liu, Yiqi and Huang, Jian},
+  booktitle={Proceedings of the 56th Annual IEEE/ACM International Symposium on Microarchitecture},
+  pages={395--410},
+  year={2023}
+}

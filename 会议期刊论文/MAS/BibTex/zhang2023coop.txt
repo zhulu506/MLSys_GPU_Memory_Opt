@@ -1,0 +1,8 @@
+@article{zhang2023coop,
+  title={Coop: Memory is not a Commodity},
+  author={Zhang, Jianhao and Ma, Shihan and Liu, Peihong and Yuan, Jinhui},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  pages={49870--49882},
+  year={2023}
+}

@@ -1,0 +1,10 @@
+@article{jin2018layer,
+  title={Layer-centric memory reuse and data migration for extreme-scale deep learning on many-core architectures},
+  author={Jin, Hai and Liu, Bo and Jiang, Wenbin and Ma, Yang and Shi, Xuanhua and He, Bingsheng and Zhao, Shaofeng},
+  journal={ACM Transactions on Architecture and Code Optimization (TACO)},
+  volume={15},
+  number={3},
+  pages={1--26},
+  year={2018},
+  publisher={ACM New York, NY, USA}
+}

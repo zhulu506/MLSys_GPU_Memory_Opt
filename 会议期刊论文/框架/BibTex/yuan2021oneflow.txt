@@ -1,0 +1,6 @@
+@article{yuan2021oneflow,
+  title={Oneflow: Redesign the distributed deep learning framework from scratch},
+  author={Yuan, Jinhui and Li, Xinqi and Cheng, Cheng and Liu, Juncheng and Guo, Ran and Cai, Shenghang and Yao, Chi and Yang, Fei and Yi, Xiaodong and Wu, Chuan and others},
+  journal={arXiv preprint arXiv:2110.15032},
+  year={2021}
+}

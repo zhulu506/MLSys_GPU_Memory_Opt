@@ -1,0 +1,7 @@
+@inproceedings{hu2022megtaichi,
+  title={MegTaiChi: Dynamic tensor-based memory management optimization for DNN training},
+  author={Hu, Zhongzhe and Xiao, Junmin and Deng, Zheye and Li, Mingyi and Zhang, Kewei and Zhang, Xiaoyang and Meng, Ke and Sun, Ninghui and Tan, Guangming},
+  booktitle={Proceedings of the 36th ACM International Conference on Supercomputing},
+  pages={1--13},
+  year={2022}
+}
