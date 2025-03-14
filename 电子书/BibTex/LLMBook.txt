@@ -1,0 +1,8 @@
+@book{LLMBook,
+  title = {大语言模型},
+  publisher = {高等教育出版社},
+  year = {2024},
+  author = {赵鑫, 李军毅, 周昆, 唐天一, 文继荣},
+  address = {北京},
+  url = {https://llmbook-zh.github.io/},
+}

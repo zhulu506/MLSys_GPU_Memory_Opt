@@ -1,0 +1,9 @@
+@article{zhang2025ai,
+  title={AI Computing Systems for Large Language Models Training},
+  author={Zhang, Zhen-Xing and Wen, Yuan-Bo and Lyu, Han-Qi and Liu, Chang and Zhang, Rui and Li, Xia-Qing and Wang, Chao and Du, Zi-Dong and Guo, Qi and Li, Ling and others},
+  journal={Journal of Computer Science and Technology},
+  volume={40},
+  number={1},
+  pages={6--41},
+  year={2025}
+}

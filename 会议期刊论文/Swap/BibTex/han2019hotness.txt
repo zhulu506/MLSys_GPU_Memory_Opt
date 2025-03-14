@@ -1,0 +1,10 @@
+@article{han2019hotness,
+  title={Hotness-and lifetime-aware data placement and migration for high-performance deep learning on heterogeneous memory systems},
+  author={Han, Myeonggyun and Hyun, Jihoon and Park, Seongbeom and Baek, Woongki},
+  journal={IEEE Transactions on Computers},
+  volume={69},
+  number={3},
+  pages={377--391},
+  year={2019},
+  publisher={IEEE}
+}

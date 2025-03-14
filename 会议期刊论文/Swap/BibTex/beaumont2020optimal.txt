@@ -1,0 +1,8 @@
+@inproceedings{beaumont2020optimal,
+  title={Optimal GPU-CPU offloading strategies for deep neural network training},
+  author={Beaumont, Olivier and Eyraud-Dubois, Lionel and Shilova, Alena},
+  booktitle={European Conference on Parallel Processing},
+  pages={151--166},
+  year={2020},
+  organization={Springer}
+}

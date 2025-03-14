@@ -1,0 +1,7 @@
+@inproceedings{hoffmann2022training,
+  title={Training compute-optimal large language models},
+  author={Hoffmann, Jordan and Borgeaud, Sebastian and Mensch, Arthur and Buchatskaya, Elena and Cai, Trevor and Rutherford, Eliza and de Las Casas, Diego and Hendricks, Lisa Anne and Welbl, Johannes and Clark, Aidan and others},
+  booktitle={Proceedings of the 36th International Conference on Neural Information Processing Systems},
+  pages={30016--30030},
+  year={2022}
+}

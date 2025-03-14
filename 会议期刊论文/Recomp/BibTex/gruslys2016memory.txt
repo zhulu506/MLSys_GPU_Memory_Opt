@@ -1,0 +1,7 @@
+@article{gruslys2016memory,
+  title={Memory-efficient backpropagation through time},
+  author={Gruslys, Audrunas and Munos, R{\'e}mi and Danihelka, Ivo and Lanctot, Marc and Graves, Alex},
+  journal={Advances in neural information processing systems},
+  volume={29},
+  year={2016}
+}

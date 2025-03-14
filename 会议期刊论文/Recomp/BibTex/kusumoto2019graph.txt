@@ -1,0 +1,7 @@
+@article{kusumoto2019graph,
+  title={A graph theoretic framework of recomputation algorithms for memory-efficient backpropagation},
+  author={Kusumoto, Mitsuru and Inoue, Takuya and Watanabe, Gentaro and Akiba, Takuya and Koyama, Masanori},
+  journal={Advances in Neural Information Processing Systems},
+  volume={32},
+  year={2019}
+}
