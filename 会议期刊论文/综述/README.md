@@ -4,6 +4,35 @@
 > 1. 笔者不评价论文质量，每篇论文都有自己的侧重，笔者只记录与自己研究方向相关的内容；
 > 2. 英文论文使用 DeepSeek 进行了翻译，如有翻译不准确的地方还请读者直接阅读英文原文。
 
+# AI 内存墙问题
+
+## 1) 2024_IEEE Micro_SCI三区_AI and Memory Wall
+
+> 这篇论文最初是一篇博客，作者较早提出了 AI 内存墙这一概念，是显存优化领域背景与挑战方面引用量较高的一篇论文。
+
+摘抄：
+- 受 neural scaling law 的驱动，从业者们一直在以前所未有的规模扩展训练最新模型所需的数据量、模型规模和计算能力。
+- 大型语言模型（LLM）的规模在同一时间段内每两年以 410 倍的速度增长，超过了单个芯片上可用的内存容量。人们可能会希望，通过将训练/服务扩展到多个加速器上，利用分布式内存并行性来避免单个硬件有限的内存容量和带宽。然而，将工作分布到多个进程中也面临着内存墙问题：神经网络（NN）加速器之间数据传输的**通信瓶颈**，这甚至比芯片内部的数据传输更慢且效率更低。
+- 这也可以使从业者在单个芯片的内存上训练大型模型，而不必使用分布式训练，后者通常**难以设置**（在大型超大规模公司之外），并且对于非专业开发人员来说**难以调试**。
+
+> "neural scaling law" 引用自：Hoffmann J, Borgeaud S, Mensch A, et al. Training compute-optimal large language models[C]//Proceedings of the 36th International Conference on Neural Information Processing Systems. 2022: 30016-30030.
+
+图表：
+
+<div style="text-align:center">
+    <img src="./pictures/AI and Memory Wall-图2a.png" style="width:90%; height:auto;">
+</div>
+
+图2. (a) 多年来 SOTA 模型参数数量的演变，以及 AI 加速器内存容量的变化（绿点）。大型 Transformer 模型的参数数量每两年以 410 倍的速度呈**指数增长**，而单个 GPU 内存每两年仅以 2 倍的速度增长。
+
+<div style="text-align:center">
+    <img src="./pictures/AI and Memory Wall-图4.png" style="width:70%; height:auto;">
+</div>
+
+图4. 训练不同神经网络模型所需的内存容量。这里，计算机视觉（CV）模型使用的优化器是 SGD 加动量（SGD+Momentum），自然语言处理（NLP）模型使用的优化器是 ADAM。基于可用的 GPU 内存容量，发现/设计新模型存在一个有趣的趋势。**每当 GPU 内存容量增加时，数据科学家们就会设计出更新的模型**。因此，**打破所谓的 GPU 内存墙可能会进一步推动新的创新**。
+
+> 图4原版来自 Jain P, Jain A, Nrusimha A, et al. Checkmate: Breaking the memory wall with optimal tensor rematerialization[J]. Proceedings of Machine Learning and Systems, 2020, 2: 497-511.
+
 # CNN 和 Transformer 模型
 
 ## 1) 2020_AIR_SCI二区_A survey of the recent architectures of deep convolutional neural networks
@@ -43,7 +72,7 @@
 
 图 4 展示了深度 CNN 架构的分类，分为七种不同的类别。
 
-## 1) 2021_arXiv:2106.04554_v2_A Survey of Transformers
+## 2) 2021_arXiv:2106.04554_v2_A Survey of Transformers
 
 > 这篇综述是关于 Transformer 的，作为笔者学位论文相关内容的参考。
 
@@ -144,35 +173,6 @@ Kaplan 等人展示了自回归语言模型（LM）的参数数量与其性能�
     <img src="./pictures/深度学习框架发展综述-表1.png" style="width:90%; height:auto;">
 </div>
 
-# AI 内存墙问题
-
-## 1) 2024_IEEE Micro_SCI三区_AI and Memory Wall
-
-> 这篇论文最初是一篇博客，作者较早提出了 AI 内存墙这一概念，是显存优化领域背景与挑战方面引用量较高的一篇论文。
-
-摘抄：
-- 受 neural scaling law 的驱动，从业者们一直在以前所未有的规模扩展训练最新模型所需的数据量、模型规模和计算能力。
-- 大型语言模型（LLM）的规模在同一时间段内每两年以 410 倍的速度增长，超过了单个芯片上可用的内存容量。人们可能会希望，通过将训练/服务扩展到多个加速器上，利用分布式内存并行性来避免单个硬件有限的内存容量和带宽。然而，将工作分布到多个进程中也面临着内存墙问题：神经网络（NN）加速器之间数据传输的**通信瓶颈**，这甚至比芯片内部的数据传输更慢且效率更低。
-- 这也可以使从业者在单个芯片的内存上训练大型模型，而不必使用分布式训练，后者通常**难以设置**（在大型超大规模公司之外），并且对于非专业开发人员来说**难以调试**。
-
-> "neural scaling law" 引用自：Hoffmann J, Borgeaud S, Mensch A, et al. Training compute-optimal large language models[C]//Proceedings of the 36th International Conference on Neural Information Processing Systems. 2022: 30016-30030.
-
-图表：
-
-<div style="text-align:center">
-    <img src="./pictures/AI and Memory Wall-图2a.png" style="width:90%; height:auto;">
-</div>
-
-图2. (a) 多年来 SOTA 模型参数数量的演变，以及 AI 加速器内存容量的变化（绿点）。大型 Transformer 模型的参数数量每两年以 410 倍的速度呈**指数增长**，而单个 GPU 内存每两年仅以 2 倍的速度增长。
-
-<div style="text-align:center">
-    <img src="./pictures/AI and Memory Wall-图4.png" style="width:70%; height:auto;">
-</div>
-
-图4. 训练不同神经网络模型所需的内存容量。这里，计算机视觉（CV）模型使用的优化器是 SGD 加动量（SGD+Momentum），自然语言处理（NLP）模型使用的优化器是 ADAM。基于可用的 GPU 内存容量，发现/设计新模型存在一个有趣的趋势。**每当 GPU 内存容量增加时，数据科学家们就会设计出更新的模型**。因此，**打破所谓的 GPU 内存墙可能会进一步推动新的创新**。
-
-> 图4原版来自 Jain P, Jain A, Nrusimha A, et al. Checkmate: Breaking the memory wall with optimal tensor rematerialization[J]. Proceedings of Machine Learning and Systems, 2020, 2: 497-511.
-
 # MLSys 训练优化
 
 ## 1) 2020_大数据_T2刊_深度学习中的内存管理问题研究综述
@@ -199,7 +199,7 @@ Kaplan 等人展示了自回归语言模型（LM）的参数数量与其性能�
 - 大多数工作通过**观察、分析 DNN 模型训练过程中的一些特征**，从数据流图、层以及张量等不同的维度，应用上述的一种或多种技术方案，充分发挥各技术的优势，实现有效的内存管理。
 - 内存交换技术中**交换单元的大小**对系统的性能有较大的影响，先前的解决方案以**页面**为内存交换的基本单位，但是性能较差，现在最好的解决方案是以**张量**为内存交换的基本单位，在虚拟内存中能够以一个更合适的粒度对内存进行管理，从而实现更好的性能。但是以张量为粒度的方案并不一定是最优的，后续的研究也需要探索更多可能的方案。此外，**内存管理策略**也十分重要，内存管理策略决定了优化内存占用的效果。目前的研究都朝着这个方向努力，但是还没有很好的内存管理策略能够**实现内存占用和计算性能的完美平衡**。
 
-## 1) 2023_中国科学:信息科学_T1刊_并行智能训练技术:挑战与发展
+## 2) 2023_中国科学:信息科学_T1刊_并行智能训练技术:挑战与发展
 
 > 这篇论文是 NUDT PDL 发的，作者关注的是分布式训练中的优化技术。我们重点学习内存交换和重计算相关的内容。
 
@@ -241,7 +241,7 @@ Kaplan 等人展示了自回归语言模型（LM）的参数数量与其性能�
 
 智能训练框架为智能模型的开发提供**编程接口**和**运行环境**，对于深度学习发展具有重要的推动作用。然而，随着训练数据和模型参数规模的增长，智能训练需要的计算设备规模越来越大，并行智能训练方式也越来越复杂，传统的 TensorFlow、PyTorch 等**基础深度学习框架**已经不能满足大规模智能模型的开发和训练需求。因此，数据并行训练框架和混合并行训练框架先后被提出，通过对并行智能训练方法进行**封装**，**抽象**出简单易用的用户接口，降低并行智能训练的编程难度，进一步推动深度学习技术的发展。
 
-## 1) 2023_软件学报_T1刊_面向深度学习训练的内存交换机制综述
+## 3) 2023_软件学报_T1刊_面向深度学习训练的内存交换机制综述
 
 > 这篇论文专注于分析内存交换，文中的理论分析部分很不错，而且从多个角度对不同的内存交换工作进行了比较，写得比较有深度，部分内容也有一些抽象。
 
@@ -325,7 +325,7 @@ Kaplan 等人展示了自回归语言模型（LM）的参数数量与其性能�
 
 算子运行特征3：**迭代间稳定性**特征。图3展示了 MindSpore 框架中部分算子在迭代间的运行状况。可以发现每次迭代中，算子在前向传播与反向传播阶段具有稳定的运行时间与内存需求。其原因在于每次迭代中只有输入数据内容发生变化，而**影响输入数据规模的批处理尺寸、影响计算开销的内部实现等参数配置没有发生变化**。深度学习框架对这一特征的利用分为两方面。当深度学习训练的参数与资源配置不变时，深度学习框架使用这一特征**通过获取一次迭代中的算子运行状况，用于后续数十万次迭代中内存交换的决策**。而训练参数与资源配置改变时，深度学习框架可以**快速评估算子运行状况的变化，针对性调整内存换出机制**。
 
-## 1) 2024_计算机工程_T2刊_GPGPU和CUDA统一内存研究现状综述
+## 4) 2024_计算机工程_T2刊_GPGPU和CUDA统一内存研究现状综述
 
 > 这篇论文最早是笔者在 HPC CHINA 2024 看到的，有助于了解 CUDA 统一内存相关的概念和工作。
 
@@ -334,7 +334,7 @@ Kaplan 等人展示了自回归语言模型（LM）的参数数量与其性能�
 - **GPU 显存容量有限且不易拓展**：相比于 CPU，考虑到 GPU 功能的局限性，加之散热、功耗、整机物理空间等因素的影响，GPU 的体积有限。此外，独立 GPU 一般是厂商封装好的独立硬件，所以 GPU 的显存容量有限且不易拓展。
 - 部分工作（DeepUM、OC-DNN）对内存交换的研究将统一内存作为研究重点。
 
-## 1) 2024_arXiv:2407.20018_v1_Efficient Training of Large Language Models on Distributed Infrastructures: A Survey
+## 5) 2024_arXiv:2407.20018_v1_Efficient Training of Large Language Models on Distributed Infrastructures: A Survey
 
 > 这是一篇极好的综述，因为是围绕 MLSys - LLM训练 这个主题去写的，对笔者的参考价值很大。内容包含单卡、多卡，并行、通信、内存、计算、容错等。笔者重点关注单卡内存优化的内容。
 
@@ -406,7 +406,7 @@ GPU 内存碎片化是指在相邻张量之间产生的**分散且不可用的 G
   - ZeRO-Infinity 将所有分区的**模型状态**卸载到 CPU 或 NVMe 内存，并将**激活值**仅卸载到 CPU 内存。
   - 与 ZeRO-Infinity 相比，LoHan 进一步将**激活值**卸载到 SSD，并将 SSD-CPU 通信作为额外的优化维度。
 
-## 1) 2024_arXiv:2401.15347_v1_A Comprehensive Survey of Compression Algorithms for Language Models
+## 6) 2024_arXiv:2401.15347_v1_A Comprehensive Survey of Compression Algorithms for Language Models
 
 > 这篇综述在讲预训练语言模型的压缩算法，笔者不是很懂这个领域，主要学习文章中对六种压缩算法的介绍。
 
@@ -432,7 +432,7 @@ GPU 内存碎片化是指在相邻张量之间产生的**分散且不可用的 G
   - 设计一种成本高效的架构，该架构需要较低的存储和计算成本。
   - 高效架构设计涉及设计具有高效结构的 Transformer 层或从预训练模型中自动搜索满足约束的模型架构的方法。
 
-## 1) 2025_JCST_B刊/T1刊_AI Computing Systems for Large Language Models Training
+## 7) 2025_JCST_B刊/T1刊_AI Computing Systems for Large Language Models Training
 
 > 这篇综述围绕 LLM 训练智能计算系统，从算法、硬件和软件三个方面进行总结，质量还是蛮高的，很多表述都可以学习。
 
@@ -468,7 +468,7 @@ GPU 内存碎片化是指在相邻张量之间产生的**分散且不可用的 G
 
 如图7所示，近年来，大型语言模型（LLMs）的参数规模呈**指数级**增长，扩大了数个数量级。模型复杂性的快速提升与主流加速器（特别是晶体管数量和内存容量）相对较慢的技术进步形成了鲜明对比。因此，**LLMs 的发展与内存技术之间的“差距”正在不断扩大**，这对在当前加速器上容纳这些庞大模型提出了重大挑战。
 
-## 1) 2025_软件导刊_T3刊_深度学习训练性能优化：原理、技术与工具
+## 8) 2025_软件导刊_T3刊_深度学习训练性能优化：原理、技术与工具
 
 > 这篇综述的内容倒是挺全面，训练流程的优化技术样样有，但样样都不是很深入。
 
@@ -574,7 +574,7 @@ f) **内存交换**：在深度学习训练中，某一模型层的中间激活�
 
 > 初读“设备内跨层级控制器”容易被唬住，但根据作者分析的相关工作和表5可知，其实这就是根据设备的内存和计算资源决定具体的优化策略。
 
-## 1) 2024_arXiv:2312.03863_v4_Efficient Large Language Models: A Survey
+## 2) 2024_arXiv:2312.03863_v4_Efficient Large Language Models: A Survey
 
 > 这篇综述的内容还是很丰富的，训推都有，涵盖模型、数据、框架三方面，图文并茂，思维导图画得不错。笔者主要关注模型压缩和 LLM 框架两部分内容。
 
@@ -619,7 +619,7 @@ f) **内存交换**：在深度学习训练中，某一模型层的中间激活�
 
 LLM 框架通常可以根据其是否支持训练、微调和推理任务进行分类。具体而言，支持训练和/或微调的框架旨在提供可扩展、高效且灵活的基础设施，以提高计算效率、**减少内存占用**、优化通信效率并确保训练/微调过程的可靠性。……表2总结了现有的 LLM 框架及其关键特性。
 
-## 1) 2024_arXiv:2303.18223_v15_A Survey of Large Language Models
+## 3) 2024_arXiv:2303.18223_v15_A Survey of Large Language Models
 
 > 这篇综述确实是涵盖了 LLM 的方方面面，而且是一直更新的状态，凡是研究内容与 LLM 相关的读者都能开卷有益。笔者还是更加关注文中与显存优化有关的内容。
 
@@ -741,7 +741,7 @@ LLM 的应用
   - 知识图谱 (KG) 增强的 LLM：检索增强的 LLM 和协同增强的 LLM；
 - LLM 在特定领域中的应用：医疗保健、教育、法律、金融、科学研究辅助、心理学和软件开发。
 
-## 1) 2024_OJ-CS_普刊_Training and Serving System of Foundation Models: A Comprehensive Survey
+## 4) 2024_OJ-CS_普刊_Training and Serving System of Foundation Models: A Comprehensive Survey
 
 > 这篇综述也是关于 LLM 训推的，通信、存储和计算，但整体缺少一些亮点。
 
@@ -752,7 +752,7 @@ LLM 的应用
   - 在 ZeRO 的基础上，ZeRO-Offload 利用异构深度学习训练的思想，通过有效利用 CPU 内存来缓解 GPU 内存的压力。它将**模型参数**分为两部分：一部分参数保留在 GPU 内存中，用于前向和反向传播中的高效计算；另一部分参数则卸载到 CPU 内存中，并在需要时访问。
   - 进一步推进这些概念，ZeRO-Infinity 与 ZeRO-Offload 类似，利用 GPU、CPU 和 NVMe 内存，在有限资源上训练基础模型，而无需代码重构。在 ZeRO-Infinity 中，模型参数和梯度仍在 GPU 上计算，而**优化器状态**和**激活值**则分别卸载到更适合的 NVMe 内存和 CPU 中。
 
-## 1) 2025_大数据_T2刊_大模型时代下的存储系统挑战与技术发展
+## 5) 2025_大数据_T2刊_大模型时代下的存储系统挑战与技术发展
 
 > 这篇综述讲了 LLM 训推存储系统，就是介绍的相关工作太少了，重点看看前两章和训练相关的内容吧~
 
@@ -788,7 +788,7 @@ LLM 的应用
 
 直接使用异构存储介质会**导致数据传输开销远高于计算开销，使数据通信成为瓶颈，进而导致 GPU 计算资源无法被充分利用**。
 
-## 1) 2025_计算机学报_T1刊_面向深度学习的数据存储技术综述
+## 6) 2025_计算机学报_T1刊_面向深度学习的数据存储技术综述
 
 > 这篇综述主要在讲 Storage for AI 这个话题，内容很全面，涉及深度学习训练的多个环节。笔者重点关注“5.1 模型状态存储技术”一节关于内存交换和重计算相关的内容。
 
@@ -825,7 +825,7 @@ LLM 的应用
 
 异构存储优化：当前，GPU 显存容量的增长速度远远低于模型参数规模的增长速度，**简单地聚合多块 GPU 的显存难以支持模型规模的持续增长**。为了解决该问题，一些研究提出使用 **DRAM**（vDNN、SuperNeurons、SwapAdvisor、Capuchin、ZeRO-Offload）、非易失性内存（Non-volatile Memory, **NVM**）以及固态硬盘（Solid State Drive, **SSD**）（FlashNeuron、ZeRO-Infinity、StrongHold）等异构存储来增强 GPU 的存储容量，将部分模型状态**卸载**到这些存储设备中。
 
-## 1) 2025_TCASI_C刊_A Survey: Collaborative Hardware and Software Design in the Era of Large Language Models
+## 7) 2025_TCASI_C刊_A Survey: Collaborative Hardware and Software Design in the Era of Large Language Models
 
 > 这篇综述也比较全面，LLM 训练和推理的内容都有，从硬件到软件再到算法都有介绍，但训练相关的内容稍微少了一些，更多还是在讲推理，而且图表比较少，阅读的体验感稍差。
 
