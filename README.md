@@ -63,3 +63,15 @@
 3、新增 `会议期刊论文\Recomp\pictures` 文件夹，保存 README.md 中的图表文件。
 
 4、修改了 `会议期刊论文\综述\README.md` 的内容。
+
+# 20250325 第 4 次提交
+
+更新内容：
+
+1、更新了 InfoSummary.xlsx 的内容，重点补充了“Swap”子表的论文信息，同时补充了“Hybrid”和“MAS”子表的论文部分信息；
+
+2、更新了 `会议期刊论文\Swap\README.md` 的内容，记录自己在阅读内存交换相关论文时的笔记；
+
+3、新增 `会议期刊论文\Swap\pictures` 文件夹、`会议期刊论文\Hybrid\pictures` 文件夹、`会议期刊论文\MAS\pictures` 文件夹，保存 README.md 中的图表文件。
+
+4、将部分图表添加到 `会议期刊论文\Hybrid\README.md` 和 `会议期刊论文\MAS\README.md` 中。

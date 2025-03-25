@@ -1,7 +1,7 @@
 # 重计算相关论文的阅读笔记
 
 > 说明：
-> 1. 重计算，又被称为激活重计算 (activation recomputation) 或梯度检查点 (gradient checkpointing) 或再物化（rematerialization），可以在不改变计算结果或损害输出准确性的情况下减少内存消耗；
+> 1. 重计算，又被称为激活重计算 (activation recomputation) 或梯度检查点 (gradient checkpointing) 或再物化 (rematerialization)；
 > 2. 笔者不评价论文质量，每篇论文都有自己的侧重，笔者只记录与自己研究方向相关的内容；
 > 3. 英文论文使用 DeepSeek 进行了翻译，如有翻译不准确的地方还请读者直接阅读英文原文。
 
