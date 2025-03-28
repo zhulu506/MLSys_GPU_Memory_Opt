@@ -1,0 +1,6 @@
+@article{tang2022delta,
+  title={Delta: Dynamically optimizing gpu memory beyond tensor recomputation},
+  author={Tang, Yu and Wang, Chenyu and Zhang, Yufan and Liu, Yuliang and Zhang, Xingcheng and Qiao, Linbo and Lai, Zhiquan and Li, Dongsheng},
+  journal={arXiv preprint arXiv:2203.15980},
+  year={2022}
+}

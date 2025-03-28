@@ -1,0 +1,8 @@
+@article{tang2025training,
+  title={Training large-scale language models with limited GPU memory: a survey},
+  author={Tang, Yu and Qiao, Linbo and Yin, Lujia and Liang, Peng and Shen, Ao and Yang, Zhilin and Zhang, Lizhi and Li, Dongsheng},
+  journal={Frontiers of Information Technology \& Electronic Engineering},
+  pages={1--23},
+  year={2025},
+  publisher={Springer}
+}
