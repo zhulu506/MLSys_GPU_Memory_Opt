@@ -1,0 +1,6 @@
+@book{2024AI系统：原理与架构,
+title={AI系统：原理与架构},
+author={ZOMI酱 and 苏统华},
+publisher={科学出版社},
+year={2024},
+}

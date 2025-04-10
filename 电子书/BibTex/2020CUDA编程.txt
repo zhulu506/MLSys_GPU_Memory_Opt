@@ -1,0 +1,6 @@
+@book{2020CUDA编程,
+title={CUDA编程},
+author={樊哲勇著},
+publisher={北京：清华大学出版社},
+year={2020},
+}

@@ -44,11 +44,11 @@
 
 ## 2) 2016_NeurIPS_A会_Memory-Efficient Backpropagation Through Time
 
-> 这个工作是针对 RNNs 的。
+> 这个工作是针对 RNNs 的。为了方便，笔者将其简称为 BPTT。
 
 动机：减少在训练**循环神经网络**（RNNs）时通过时间反向传播（BackPropagation Through Time, BPTT）算法的内存消耗。
 
-总结：该文献提出了一种动态规划算法，用于减少循环神经网络（RNNs）训练过程中基于时间反向传播（BPTT）的内存消耗。该算法在固定内存预算约束下，通过权衡中间结果的内存占用与重计算成本，寻找计算成本最小化的最优执行方案。
+总结：BPTT 提出了一种动态规划算法，用于减少循环神经网络（RNNs）训练过程中基于时间反向传播（BPTT）的内存消耗。该算法在固定内存预算约束下，通过权衡中间结果的内存占用与重计算成本，寻找计算成本最小化的最优执行方案。
 
 摘抄：
 - 递归网络的隐藏状态 (hidden state) 是 RNN 核心输出的一部分，它作为输入传递给下一个 RNN 核心。除了初始隐藏状态外，一旦网络被展开，每个时间步都会存在一个单独的隐藏状态。
@@ -67,11 +67,11 @@
 
 ## 4) 2019_NeurIPS_A会_A Graph Theoretic Framework of Recomputation Algorithms for Memory-Efficient Backpropagation
 
-> 这也是个用图论来建模重计算问题的工作，提到了两种动态规划策略。
+> 这也是个用图论来建模重计算问题的工作，提到了两种动态规划策略。为了方便，笔者将其简称为 ApproxDP。
 
 动机：Sublinear、BPTT 并未完全普遍地研究具有复杂结构的神经网络，其应用要么局限于特定的网络家族，要么局限于可以应用其特定启发式方法的一组网络。在本文中，我们将提出一种新颖且高效的重计算方法，该方法理论上可以应用于所有类型的神经网络。
 
-总结：该文献通过图论建模，将在固定内存预算约束下最小化计算开销的通用重计算问题形式化，并提出一种用于快速获得接近最优策略的近似动态规划 (Approximate DP) 算法。
+总结：ApproxDP 通过图论建模，将在固定内存预算约束下最小化计算开销的通用重计算问题形式化，并提出一种用于快速获得接近最优策略的近似动态规划 (Approximate DP) 算法。
 
 ## 5) 2020_MLSys_顶会_Checkmate: Breaking the Memory Wall with Optimal Tensor Rematerialization  
 
@@ -178,11 +178,11 @@
 
 ## 9) 2021_CVPR_A会_Optimal Gradient Checkpoint Search for Arbitrary Computation Graphs  
 
-> 这篇论文有一些不错的表述，但笔者觉得论文里对其核心方法的总结并不好，abstract 和 introduction 里写得太简单抽象，方法一章又有复杂的图论相关的算法，这样不方便读者掌握论文的核心思想。
+> 这篇论文有一些不错的表述，但笔者觉得论文里对其核心方法的总结并不好，abstract 和 introduction 里写得太简单抽象，方法一章又有复杂的图论相关的算法，这样不方便读者掌握论文的核心思想。为了方便，笔者将其简称为 OptACG。
 
 动机：现有的梯度检查点（GCP，Gradient CheckPointing）方法依赖于手动指定梯度检查点（GCs，Gradient Checkpoints）或基于启发式方法在线性计算图（LCG，Linear Computation Graphs）上搜索 GC，因此无法适用于任意计算图（ACG，Arbitrary Computation Graphs）。本文提出了关于 GC 选择的理论和最优算法，首次使其适用于 ACG，并实现了最大的内存节省。
 
-总结：该文献提出了一种面向任意计算图的最优梯度检查点搜索算法。
+总结：OptACG 提出了一种面向任意计算图的最优梯度检查点搜索算法。
 
 摘抄：
 - 与需要物理升级 GPU 的解决方案不同，GCP 训练通过计算换取超出现有 GPU 硬件限制的更多内存。GCP 在前向传播过程中仅存储部分中间张量，称为 GCs。然后在反向传播过程中，通过额外的局部前向计算来补充缺失的张量。总训练内存开销等于 (1) 梯度检查点的内存开销与 (2) 局部前向计算的最大内存开销之和。为了实现最大的内存节省，需要使用最优算法选择 GC。
@@ -366,16 +366,16 @@ Melon 重计算策略的动机：为了将生命周期感知内存池与重计�
 
 ## 15) 2023_MLSys_顶会_Transcending Runtime-Memory Tradeoffs in Checkpointing by being Fusion Aware  
 
-> 这个工作将算子融合与重计算做了个结合。
+> 这个工作将算子融合与重计算做了个结合。为了方便，笔者将其简称为 MinCut。
 
 动机：现有的建模方式忽略了现代深度学习系统和硬件中的一个关键组成部分——算子融合 (operator fusion)。算子融合（或称内核融合，kernel fusion）是许多先进 DNN 执行框架（如 PyTorch 和 TVM）中的关键优化技术。它将多个 GPU 内核合并为单个 GPU 内核，从而消除内存带宽成本。在算子融合的情况下，额外的计算并不一定会导致运行时间变长。事实上，在许多情况下，当结合算子融合时，重计算甚至可能提升运行速度。
 
-总结：该文献考虑了算子融合情况下的重计算策略，提出了一种最小割 (min-cut) 算法。
+总结：MinCut 考虑了算子融合情况下的重计算策略，提出了一种最小割 (min-cut) 算法。
 
 ## 16) 2025_JPDC_B刊_GPU memory usage optimization for backward propagation in deep network training  
 
-> 该工作用动态规划解决检查点 (checkpoint) 选择问题。
+> 该工作用动态规划解决检查点 (checkpoint) 选择问题。为了方便，笔者将其简称为 OptACG-DP。
 
 动机：Optimal ACG 使用与 Sublinear 内存成本方法相同的目标函数来求解最优检查点子集，但该目标函数无法准确描述 PyTorch 等先进深度学习平台的内存行为，因此该算法无法找到真正的最优检查点子集。
 
-总结：该文献通过追踪 PyTorch 报告的内存使用情况并结合模型训练理论分析提出了一个更精确的目标函数，设计了一种时间复杂度为 $O(n)$ 的动态规划算法来求解最优检查点子集，以解决动态检查点选择 (dynamic checkpoint selection) 问题。
+总结：OptACG-DP 通过追踪 PyTorch 报告的内存使用情况并结合模型训练理论分析提出了一个更精确的目标函数，设计了一种时间复杂度为 $O(n)$ 的动态规划算法来求解最优检查点子集，以解决动态检查点选择 (dynamic checkpoint selection) 问题。

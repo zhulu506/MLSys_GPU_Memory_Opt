@@ -1,0 +1,8 @@
+@article{ma2023llm,
+  title={Llm-pruner: On the structural pruning of large language models},
+  author={Ma, Xinyin and Fang, Gongfan and Wang, Xinchao},
+  journal={Advances in neural information processing systems},
+  volume={36},
+  pages={21702--21720},
+  year={2023}
+}

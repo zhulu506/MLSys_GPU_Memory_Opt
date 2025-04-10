@@ -1,0 +1,10 @@
+@article{li2020pytorch,
+  title={PyTorch distributed: experiences on accelerating data parallel training},
+  author={Li, Shen and Zhao, Yanli and Varma, Rohan and Salpekar, Omkar and Noordhuis, Pieter and Li, Teng and Paszke, Adam and Smith, Jeff and Vaughan, Brian and Damania, Pritam and others},
+  journal={Proceedings of the VLDB Endowment},
+  volume={13},
+  number={12},
+  pages={3005--3018},
+  year={2020},
+  publisher={VLDB Endowment}
+}

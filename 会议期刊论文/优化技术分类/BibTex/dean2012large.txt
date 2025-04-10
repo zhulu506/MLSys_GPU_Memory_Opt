@@ -1,0 +1,7 @@
+@article{dean2012large,
+  title={Large scale distributed deep networks},
+  author={Dean, Jeffrey and Corrado, Greg and Monga, Rajat and Chen, Kai and Devin, Matthieu and Mao, Mark and Ranzato, Marc'aurelio and Senior, Andrew and Tucker, Paul and Yang, Ke and others},
+  journal={Advances in neural information processing systems},
+  volume={25},
+  year={2012}
+}

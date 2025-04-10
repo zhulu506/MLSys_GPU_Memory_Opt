@@ -1,0 +1,9 @@
+@article{zhu2024survey,
+  title={A survey on model compression for large language models},
+  author={Zhu, Xunyu and Li, Jian and Liu, Yong and Ma, Can and Wang, Weiping},
+  journal={Transactions of the Association for Computational Linguistics},
+  volume={12},
+  pages={1556--1577},
+  year={2024},
+  publisher={MIT Press 255 Main Street, 9th Floor, Cambridge, Massachusetts 02142, USA~…}
+}

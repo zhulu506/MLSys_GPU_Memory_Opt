@@ -1,0 +1,6 @@
+@article{liu2023llm,
+  title={Llm-qat: Data-free quantization aware training for large language models},
+  author={Liu, Zechun and Oguz, Barlas and Zhao, Changsheng and Chang, Ernie and Stock, Pierre and Mehdad, Yashar and Shi, Yangyang and Krishnamoorthi, Raghuraman and Chandra, Vikas},
+  journal={arXiv preprint arXiv:2305.17888},
+  year={2023}
+}

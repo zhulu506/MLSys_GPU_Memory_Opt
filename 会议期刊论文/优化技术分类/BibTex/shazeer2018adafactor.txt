@@ -1,0 +1,8 @@
+@inproceedings{shazeer2018adafactor,
+  title={Adafactor: Adaptive learning rates with sublinear memory cost},
+  author={Shazeer, Noam and Stern, Mitchell},
+  booktitle={International Conference on Machine Learning},
+  pages={4596--4604},
+  year={2018},
+  organization={PMLR}
+}
